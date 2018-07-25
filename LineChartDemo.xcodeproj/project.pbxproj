@@ -14,6 +14,7 @@
 		099ECE912106F09E00AF2DAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 099ECE8F2106F09E00AF2DAA /* LaunchScreen.storyboard */; };
 		099ECE9C2106F09E00AF2DAA /* LineChartDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099ECE9B2106F09E00AF2DAA /* LineChartDemoTests.swift */; };
 		099ECEA72106F09E00AF2DAA /* LineChartDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099ECEA62106F09E00AF2DAA /* LineChartDemoUITests.swift */; };
+		099ECEB52106F0C000AF2DAA /* LineChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099ECEB42106F0C000AF2DAA /* LineChart.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		099ECEA22106F09E00AF2DAA /* LineChartDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LineChartDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		099ECEA62106F09E00AF2DAA /* LineChartDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChartDemoUITests.swift; sourceTree = "<group>"; };
 		099ECEA82106F09E00AF2DAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		099ECEB42106F0C000AF2DAA /* LineChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChart.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				099ECE8D2106F09E00AF2DAA /* Assets.xcassets */,
 				099ECE8F2106F09E00AF2DAA /* LaunchScreen.storyboard */,
 				099ECE922106F09E00AF2DAA /* Info.plist */,
+				099ECEB42106F0C000AF2DAA /* LineChart.swift */,
 			);
 			path = LineChartDemo;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			files = (
 				099ECE892106F09E00AF2DAA /* ViewController.swift in Sources */,
 				099ECE872106F09E00AF2DAA /* AppDelegate.swift in Sources */,
+				099ECEB52106F0C000AF2DAA /* LineChart.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
