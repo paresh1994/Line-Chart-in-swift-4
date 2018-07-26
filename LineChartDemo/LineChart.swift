@@ -140,7 +140,7 @@ class LineChart: UIView {
             
             let animation = CABasicAnimation(keyPath: "strokeEnd")
             animation.fromValue = 0
-            animation.duration = 5
+            animation.duration = 3
             layer.add(animation, forKey: "Myanimation")
            
             
