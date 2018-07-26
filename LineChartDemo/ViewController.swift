@@ -17,10 +17,9 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         let dataEntries = generateRandomEntries()
-        
         lineChartView.dataEntries = dataEntries
-        
-        self.view.backgroundColor = #colorLiteral(red: 0, green: 0.3529411765, blue: 0.6156862745, alpha: 1)
+        lineChartView.layer.cornerRadius = 10.0
+        self.view.backgroundColor = #colorLiteral(red: 0.9372549057, green: 0.3490196168, blue: 0.1921568662, alpha: 1)
         
     }
 
@@ -29,18 +28,13 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     private func generateRandomEntries() -> [PointEntry] {
-        var result: [PointEntry] = []
-        for i in 0..<25 {
-            let value = Int(arc4random() % 100)
-            
-            let formatter = DateFormatter()
-            formatter.dateFormat = "d MMM"
-            var date = Date()
-            date.addTimeInterval(TimeInterval(24*60*60*i))
-            
-            result.append(PointEntry(value: CGFloat(value), title: formatter.string(from: date)))
-        }
-        return result
+        let results = [PointEntry(value: 30.0, title: "One"),
+                       PointEntry(value: 45.0, title: "Two"),
+                       PointEntry(value: 15.0, title: "Three"),
+                       PointEntry(value: 10.0, title: "Four"),
+                       PointEntry(value: 75.0, title: "Five"),
+                       PointEntry(value: 85.0, title: "Sixe")]
+        return results
     }
 
 }
