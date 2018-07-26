@@ -38,5 +38,5 @@ private func generateRandomEntries() -> [PointEntry] {
 ```
 
 
-
+<img src="linechartdemo.png" alt="Demo Image" width="360"/>
 
