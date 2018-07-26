@@ -3,7 +3,7 @@ This code demostarint how to create own line chart without using third party lib
 
 
 # How to use
-Downlaod the project and drag LineChart.swift in your project.
+Downlaod the project and drag LineChart.swift file in your project.
 
 Create IBOutlet 
 
