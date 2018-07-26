@@ -1,5 +1,5 @@
 # LineChart in swift 4
-This code demostarint how to create own line chart without using third party library. It is contain one small file LineChart.swift for linechart draw.
+This code demostarint how to create own line chart with cool animation without using third party library. It is contain one small file LineChart.swift for linechart draw.
 
 
 # How to use
