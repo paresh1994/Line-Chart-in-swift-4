@@ -10,11 +10,6 @@ Create IBOutlet
 ```
 @IBOutlet weak var lineChartView: LineChart!
 
-let dataEntries = generateRandomEntries()
-lineChartView.dataEntries = dataEntries
-lineChartView.layer.cornerRadius = 10.0
-self.view.backgroundColor = #colorLiteral(red: 0.9372549057, green: 0.3490196168, blue: 0.1921568662, alpha: 1)
-
 
 override func viewDidLoad() {
         super.viewDidLoad()
